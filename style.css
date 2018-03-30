@@ -1,0 +1,58 @@
+/*  
+Theme Name: My First Theme
+Theme URI: my-theme
+Description: A search engine optimized website framework for WordPress.
+Author: Shyla Clark
+Author URI: http://example.com/
+Version: 1.0
+Tags: simple, clean, modern
+.
+All rights reserved.
+Like WordPress, this work is released under GNU General Public License, version 2 (GPL).
+ 
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+.
+*/
+
+/*
+LAYOUT: Three-Column
+DESCRIPTION: Three-column fluid layout with two sidebars on both sides of content
+*/
+
+#container {
+	float: left;
+	width: 100%;
+}
+#branding {
+        float: left;
+}
+#content {
+	margin: 0 180px;
+}
+#primary, #secondary {
+	float: left;
+	overflow: hidden;
+	width: 25%;
+}
+#primary {
+	margin: 0 0 0 -100%;
+}
+* html #primary {
+	left: 200px;
+	position: relative;
+}
+#secondary {
+	margin: 0 0 0 -180px;
+}
+#footer {
+	clear: left;
+	width: 100%;
+}
+
+#sidebar {
+    width: auto;
+}
+
+ul {
+  list-style-type: none;
+}
