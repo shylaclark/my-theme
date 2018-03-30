@@ -8,3 +8,5 @@ Hosting that supports WordPress (cPanel, MySQL).
 Place folder in wp-content/themes/ directory.
 
 ## Screenshots
+![mobile-web](/screenshots/ss-mobile.png?raw=true "Mobile Web Example")
+![desktop-web](/screenshots/ss-desktop.png?raw=true "Desktop Web Example")
